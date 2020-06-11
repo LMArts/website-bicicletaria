@@ -1,5 +1,5 @@
-# Ciclo Terra Preta
+# Ciclo Terra Preta :bike:
 
 Layout desenvolvido em HTML, CSS e Bootstrap para a bicicletaria Ciclo Terra Preta.
 
-[Veja o site na integra.](https://lmarts.github.io/website-bicicletaria/)
+:mag_right: [Veja o site na integra.](https://lmarts.github.io/website-bicicletaria/)
