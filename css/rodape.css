@@ -1,0 +1,41 @@
+.rodape{
+    background-color: #4b433d;
+}
+.rodape-img{
+    padding: 1em;
+}
+.lista-corpo{
+    flex-direction: column;
+    justify-content: center;
+}
+.lista-item{
+    border:none;
+    background-color: transparent;
+    padding: 0;
+}
+.rodape-texto{
+    color: #f7f1d6;
+    font-size: 15px;
+    font-family: droid-serif, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+    margin: 0;
+    padding: 0.3em;
+}
+.rodape-link:hover{
+    cursor: pointer;
+    color: #f7f1d6;
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .lista-corpo{
+        flex-direction: row;
+    }
+    .lista-item{
+        padding: 0.5em;
+    }
+    .rodape-texto{
+        font-size: 17px;
+    }
+ }

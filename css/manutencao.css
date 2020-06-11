@@ -1,0 +1,35 @@
+.manutencao{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.manutencao-titulo-principal{
+    font-size: 20px;
+    font-family: droid-serif, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding-bottom: 1em;
+}
+.manutencao-img{
+    padding: 1em;
+}
+.manutencao-titulo{
+    font-family: droid-serif, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.manutencao-texto{
+    font-size: 17px;
+    font-family: droid-serif, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+    opacity: 70%;
+}
+@media (min-width: 768px) {
+    .manutencao-titulo-principal{
+        font-size: 40px;
+    }
+}

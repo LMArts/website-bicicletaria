@@ -1,0 +1,35 @@
+.btn-color{
+    color: #4b433d;
+    opacity: 100%;
+}
+.modal-titulo{
+    font-family: droid-serif, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-top: 0.7em;
+}
+.modal-texto{
+    font-size: 16px;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    opacity: 80%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.modal-lista-corpo{
+    justify-content: right;
+}
+.modal-lista-item{
+    border:none;
+    background-color: transparent;
+    padding: 0.2em;
+}
+
+@media (min-width: 768px) {
+    .modal-lista-item{
+        padding: 0.5em;
+    }
+ }

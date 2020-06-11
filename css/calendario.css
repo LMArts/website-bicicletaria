@@ -1,0 +1,56 @@
+.calendario-titulo{
+    font-family: droid-serif, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.card-cabecalho{
+    background-color: #4b433d;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.card-btn-cabecalho{
+    font-family: droid-serif, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #f7f1d6;
+}
+.card-btn-cabecalho:hover{
+    color: #f7f1d6;
+}
+.card-calendario{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-titulo-calendario{
+    font-family: droid-serif, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.card-texto-calendario{
+    font-size: 16px;
+    letter-spacing: 1px;
+    opacity: 80%;
+    text-align: justify;
+}
+
+@media (min-width: 768px) {
+    .calendario-titulo{
+        font-size: 26px;
+    }
+    .card-btn-cabecalho{
+        font-size: 20px;
+    }
+    .card-img-coluna{
+        margin: auto;
+    }
+    .card-img{
+        border-radius: 50%;
+        padding: 5px;
+    }
+}

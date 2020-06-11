@@ -1,0 +1,32 @@
+.peca{
+    height: 300px;
+    background-color: #4b433d;
+}
+.peca-titulo{
+    font-size: 20px;
+    font-family: droid-serif, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: #f7f1d6;
+    padding-top: 1.5em;
+}
+.peca-texto{
+    font-family: droid-serif, sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    color: #f7f1d6;
+    padding: 0.7em;
+    opacity: 80%;
+}
+@media (min-width: 768px) {
+    .peca-titulo{
+        font-size: 40px;
+        padding: 1em;
+    }
+    .peca-texto{
+        font-size: 17px;
+        line-height: 1.8em;
+    }
+}

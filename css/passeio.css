@@ -1,0 +1,80 @@
+.passeio{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.card-inicial{
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+.corpo-inicial{
+    padding: 0.4em;
+    padding-bottom: 1em;
+}
+.titulo-inicial{
+    font-size: 20px;
+    font-family: droid-serif, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.texto-inicial{
+    font-size: 15px;
+    font-family: droid-serif, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+    opacity: 70%;
+    text-align: justify;
+}
+.card-btn{
+    font-size: 15px;
+    color: #f7f1d6;
+    background-color: #4b433d;
+    font-family: 'Source Sans Pro', cursive;
+    letter-spacing: 2px;
+}
+.card-btn:hover{
+    cursor: pointer;
+    color: #4b433d;
+    background-color: #9e7863;
+}
+.card-principal{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border: none;
+    padding-bottom: 1em;
+}
+.card-corpo{
+    padding: 0.5em;
+}
+.card-titulo{
+    font-family: droid-serif, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.card-texto{
+    font-size: 16px;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    opacity: 80%;
+    margin-bottom: 0.5em;
+    text-align: justify;
+}
+.card-data{
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    opacity: 90%;
+}
+
+@media (min-width: 768px) {
+    .titulo-inicial{
+        font-size: 40px;
+    }
+    .texto-inicial{
+        font-size: 17px;
+    }
+}

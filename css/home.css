@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Special+Elite&display=swap');
+@font-face {
+    font-family: droid-serif;
+    src: url('droid-serif.regular.ttf');
+}
+#home{
+    background-color: #4b433d;
+}
+.home-img{
+    width: 70%;
+}
+.icone-externo{
+    background-color: #f7f1d6;
+    border: 1px solid #4b433d;
+}
+.icone-interno{
+    background-image: url("../img/menu.png");
+}
+.menu-item{
+    color: #f7f1d6;
+    font-size: 17px;
+    font-family: droid-serif, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+}
+.menu-item:hover{
+    color: #f7f1d6;
+    text-decoration: underline;
+}
+.home-div{
+    padding: 2em;
+}
+.home-titulo{
+    font-size: 20px;
+    font-family: droid-serif, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: #f7f1d6;
+    padding: 0.2em;
+}
+.home-texto{
+    font-family: droid-serif, sans-serif;
+    font-size: 18px;
+    color: #f7f1d6;
+    padding-top: 0.4em;
+}
+@media (min-width: 768px) {
+    .home-titulo{
+        font-size: 40px;
+        padding: 1em;
+    }
+    .home-texto{
+        font-size: 25px;
+        line-height: 1.8em;
+        letter-spacing: 1px;
+    }
+}
